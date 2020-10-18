@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+  <h1><%= title %></h1>
+  <p>Welcomeee to <%= title %></p>
+  <form action="/signup" method="POST">
+    <input required type="email" name="email" placeholder="Your Email" id="">
+    <input required type="password" name="password" placeholder="Your password" id="">
+    <input type="submit" value="Sign up for a free trial" id="">
+  </form>
+</body>
+</html>
